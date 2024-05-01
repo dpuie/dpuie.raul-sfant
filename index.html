@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raul Sfant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="header-wrapper">
+        <div id="my-picture">
+          <img src="images/img1.jpg" alt="my picture" height="100" />
+        </div>
+        <div id="header-info">
+          <h1>Biserica Apostolica Raul Sfant Dunstable</h1>
+          <h2 id="verset">
+            "Veniţi la Mine, toţi cei trudiţi şi împovăraţi, şi Eu vă voi da
+            odihnă." Matei 11:28
+          </h2>
+        </div>
+      </div>
+      <ul id="top-menu-bar">
+        <li><a href="#" class="active">Home</a></li>
+        <li>
+          <a href="#" onclick="showScoalaDuminicalaPage()">
+            Scoala duminicala</a
+          >
+        </li>
+        <li><a href="#">Resurse</a></li>
+        <li><a href="#">Poze</a></li>
+        <li><a href="#">Donatii</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <section id="content">
+        <div id="main">
+          <div class="page" id="home">
+            <h2>Home</h2>
+            <p>Despre noi</p>
+            <p>Conducerea Bisericii</p>
+            <ul>
+              <li>Pastor Pintea Ciprian</li>
+              <li>Prezbiter Munteanu Andrei</li>
+            </ul>
+          </div>
+
+          <div class="page" id="scoala duminicala">
+            <h2>Scoala duminicala</h2>
+            <p>
+              Asteptam copilasii la scoala duminicala pentru a le prezenta
+              Biblia pe intelesul lor
+            </p>
+            <ul>
+              <li>Grupa 5+</li>
+              <li>Adolescenti</li>
+            </ul>
+          </div>
+
+          <div class="page" id="resurse">
+            <h2>Resurse</h2>
+            <p>Predici</p>
+            <audio controls>
+              <source src="Predici/videoplayback (2).m4a" type="audio/mpeg" />
+            </audio>
+          </div>
+
+          <div class="page" id="poze">
+            <h2>Poze</h2>
+          </div>
+
+          <div class="page" id="donatii">
+            <h2>Donatii</h2>
+          </div>
+
+          <div class="page" id="contact">
+            <h2>Contact</h2>
+            <form action="" method="post">
+              <label for="contact-email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="contact-email"
+                required
+                placeholder="hr@company.com"
+              />
+              <br />
+              <label for="contact-name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="contact-name"
+                required
+                placeholder="Enter your name"
+              />
+              <label for="contact-reason">Reason</label>
+              <input
+                type="text"
+                name="Reason"
+                id="contact-reason"
+                required
+                placeholder="Reason for contact us"
+              />
+              <button type="submit">Contact us</button>
+            </form>
+            <p>Telefon</p>
+            <p>Adresa</p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <a href="https://www.facebook.com/brsluton/?locale=ro_RO">Facebook</a>
+        <audio controls autoplay loop>
+          <source src="Predici/background music.m4a" type="audio/mpeg" />
+        </audio>
+        <script src="index.js"></script>
+      </footer>
+    </header>
+  </body>
+</html>
